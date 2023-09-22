@@ -56,3 +56,59 @@ header .menu li:first-child {
     color: #fff;
     margin-top: 20px;
 }
+#idx_board_wrap {
+    background : #ddd;
+    padding: 50px 0;
+}
+#idx_board_wrap>div {
+    width: 90%;
+    min-width: 1000px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+.idx_board {
+    width: 500px;
+    background: #fff;
+}
+.idx_board .title {
+    padding: 20px;
+    border-bottom: 1px solid #aaa;
+}
+.idx_board .title a {
+    display: inline-block;
+    vertical-align: middle;
+}
+.idx_board. title.name {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+.idx_board .title .more img {
+    width: 24px;
+    margin-left: 3px;
+}
+.idx_board .list {
+    padding: 20px;
+    font-size: 0;
+}
+.idx_board .list ul li{
+    margin-top: 10px;
+}
+.idx_board .list ul li:first-child {
+    margin-top: 0;
+}
+.idx_board .list a {
+    font-size: 14px;
+    width: 80%;
+}
+.idx_board .list span {
+    font-size: 12px;
+    color: #777;
+    width: 20%;
+    text-align: right;
+}
+.idx_board .list a,
+.idx_board .list span {
+    display: inline-block;
+    vertical-align: middle;
+}
